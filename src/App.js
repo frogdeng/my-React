@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Switch from './component/Switch';
 import KKTIX from './component/KKTIX';
-import Temperature from './component/Temperature';
+import Calculator from './component/Temperature';
 
 import './component/venue.sass';
 
@@ -12,7 +12,8 @@ class App extends Component {
       <div className="App">
 
         {/* <Switch/> */}
-        <Temperature/>
+        <Calculator scale="c"/>
+        <Calculator scale="f"/>
 
       </div>
      
